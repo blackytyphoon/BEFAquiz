@@ -1,4 +1,12 @@
 import streamlit as st
+import google.generativeai as genai
+import re
+import json
+import time
+import os
+import plotly.graph_objects as go
+from streamlit_lottie import st_lottie
+import requests
 from pages.quiz1 import maini
 from pages.quiz2 import mainy
 st.set_page_config(
